@@ -1,0 +1,260 @@
+#button{
+    border-radius: 25px;
+    color:balck ;
+    width: 170px;
+    height: 70px;  
+    border: none;
+    background-color:rgb(150, 239, 255) ;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 28px;
+    position: absolute;
+    top:555px;
+    left:1041px;
+    
+    
+}
+
+.button2{
+    border-radius: 25px;
+    color: rgb(0, 0, 0);
+    width: 70px;
+    height: 40px;
+    border: none;
+    background-color:rgb(192, 153, 184) ;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    font-size: 18px;
+    position: absolute;
+    top:850px;
+    left:1820px;
+}
+
+.teszt1{
+  border-radius: 55px;
+  background-color: #ffffff;
+  padding: 20px; 
+  width: 700px;
+  height: 650px;  
+  border: 30px solid  #ffffff;
+}
+
+.td{
+    height:373px;
+     width:444px;
+    background-color:white;
+    padding-top: 75px;
+}
+.td2{
+    height:373px;
+     width:444px;
+    background-color:white;
+    
+}
+
+.button3{
+    --glow-color: rgb(217, 176, 255);
+    --glow-spread-color: rgba(191, 123, 255, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(100, 61, 136);
+    border: 0.25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: var(--glow-color);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 1em var(--glow-spread-color), inset 0 0 0.75em 0.25em var(--glow-color);
+    text-shadow: 0 0 0.5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: absolute;
+    top:555px;
+    left: 711px;
+    
+}
+
+.button4{
+    --glow-color: rgb(255, 64, 80);
+    --glow-spread-color: rgba(255, 92, 127, 0.781);
+    --enhanced-glow-color: rgb(231, 206, 255);
+    --btn-color: rgb(255, 51, 85);
+    border: 0.25em solid var(--glow-color);
+    padding: 1em 3em;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: var(--btn-color);
+    border-radius: 1em;
+    outline: none;
+    box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 1em var(--glow-spread-color), inset 0 0 0.75em 0.25em var(--glow-color);
+    text-shadow: 0 0 0.5em var(--glow-color);
+    position: relative;
+    transition: all 0.3s;
+    cursor: pointer;
+    position: absolute;
+    top:685px;
+    left: 870px;
+    
+}
+.button4::after{
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: blur(2em);
+    opacity: 0.7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+}
+.button4:hover{
+    color: white;
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 2em var(--glow-spear-color), inset 0 0 0.75em 0.25em var(--glow-color);
+}
+.button4:active{
+    box-shadow:  0 0 0.6em  0.25em var(--glow-color), 0 0 0.25em 2em var(--glow-spear-color), inset 0 0 0.5em 0.25em var(--glow-color);
+}
+
+.button3::after{
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    filter: blur(2em);
+    opacity: 0.7;
+    transform: perspective(1.5em) rotateX(35deg) scale(1, 0.6);
+}
+
+.button3:hover{
+    color: var(--btn-color);
+    background-color: var(--glow-color);
+    box-shadow: 0 0 1em 0.25em var(--glow-color), 0 0 4em 2em var(--glow-spear-color), inset 0 0 0.75em 0.25em var(--glow-color);
+}
+
+.button3:active{
+    box-shadow:  0 0 0.6em  0.25em var(--glow-color), 0 0 0.25em 2em var(--glow-spear-color), inset 0 0 0.5em 0.25em var(--glow-color);
+}
+
+
+
+.terv1{
+    cursor: pointer;
+    background-color: white;
+    height: 65px;
+    width: 200px;
+    border-radius: 20px;
+    font-size: 25px;
+    position: absolute;
+   
+    border:none;
+    
+}
+.terv1:hover{
+    border: 3px solid rgb(255, 64, 96);
+}
+.special{
+    border: 3px solid rgb(255, 64, 96);
+    color:white;
+    background-color:rgb(255, 64, 96) ;
+    transition: 0.5s;
+} 
+
+.terv11{
+    top: 260px;
+    left: 720px;
+}
+
+
+.terv2{
+    top: 260px;
+    left: 1020px;
+}
+
+.terv3{
+    top: 360px;
+    left: 720px;
+}
+
+.terv4{
+    top: 360px;
+    left: 1020px;
+}
+
+.terv5{
+    top: 460px;
+    left: 720px;
+}
+
+.terv6{ 
+    top: 460px;
+    left: 1020px;
+}
+
+#font{
+    position: absolute;
+    top:115px;
+    left:800px;
+    font-size: 30px;
+    
+}
+#font2{
+    position: absolute;
+    top:175px;
+    left: 830px;
+    font-size:25px;
+}
+
+#font3{
+    position: absolute;
+    top:530px;
+    left:740px;
+    font-size:23px;
+}
+
+#text11{
+    position: absolute;
+    top:590px;
+    left:725px;
+   
+}
+
+#text {
+    width: 450px;
+    height: 25px;
+    padding: 10px;
+    background: white;
+    
+    border: 1px solid black;
+    border-radius: 12px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    resize: none;
+    top:600px;
+}
+
+#font4{
+    position: absolute;
+    top:837px;
+    left:1620px ;
+    font-size: 20px;
+}
+
+#gomb{
+    font-size: 40px;
+}
+
+#area{
+    font-size: 40px;
+    align-content: center;
+}
